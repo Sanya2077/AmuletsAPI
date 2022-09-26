@@ -57,6 +57,7 @@ public class Listener_ implements Listener {
 	@EventHandler
 	private void onInventoryClose(final InventoryCloseEvent e) {
 		if (e.getView().getTopInventory().getHolder() instanceof AmuletInventory) {
+			config.updatePlayerAmuletInConfig((Player) e.getPlayer(), e.getInventory().getItem(1), "Head");
 			config.updatePlayerAmuletInConfig((Player) e.getPlayer(), e.getInventory().getItem(9), "LeftH");
 			config.updatePlayerAmuletInConfig((Player) e.getPlayer(), e.getInventory().getItem(10), "Chest");
 			config.updatePlayerAmuletInConfig((Player) e.getPlayer(), e.getInventory().getItem(11), "RightH");
