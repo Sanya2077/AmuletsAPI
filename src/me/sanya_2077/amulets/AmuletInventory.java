@@ -27,16 +27,12 @@ public class AmuletInventory implements InventoryHolder {
 		}
 
 		inventory.setItem(1, config.getPlayerAmulet(player, "Head")); // head
-		inventory.setItem(9, config.getPlayerAmulet(player, "LeftH")); // left
-																		// hand
+		inventory.setItem(9, config.getPlayerAmulet(player, "LeftH")); // left hand
 		inventory.setItem(10, config.getPlayerAmulet(player, "Chest")); // chest
-		inventory.setItem(11, config.getPlayerAmulet(player, "RightH")); // right
-																			// hand
+		inventory.setItem(11, config.getPlayerAmulet(player, "RightH")); // right hand
 		inventory.setItem(19, config.getPlayerAmulet(player, "Pelvis")); // pelvis
-		inventory.setItem(27, config.getPlayerAmulet(player, "LeftL")); // left
-																		// leg
-		inventory.setItem(29, config.getPlayerAmulet(player, "RightL")); // right
-																			// leg
+		inventory.setItem(27, config.getPlayerAmulet(player, "LeftL")); // left leg
+		inventory.setItem(29, config.getPlayerAmulet(player, "RightL")); // right leg
 
 		player.openInventory(inventory);
 	}
