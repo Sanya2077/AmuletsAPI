@@ -60,4 +60,7 @@ public class AmuletsApiExample extends JavaPlugin {
 
 Still have questions? Add me to discord `Alexandro Bogach#6885` or add me in VK `https://vk.com/the_sanya_2077`, maybe i will help! 
 
+TODO: 
+- Add ability to create for yourself menu, without using my menu if you dont like this!
+- Add other slots, maybe special rings slots, not really know!
 
