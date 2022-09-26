@@ -51,3 +51,6 @@ public class AmuletsApiExample extends JavaPlugin {
 	}
 }
 ```
+
+
+Still have questions? Add me to discord `Alexandro Bogach#6885` or add me in VK `https://vk.com/the_sanya_2077`, maybe i will help! 
