@@ -7,6 +7,10 @@ you can do this by `new API();`, this will be like `api = new API();`, well done
 function needed for checking player item, next function is `updatePlayerAmuletAtSlot()`, you can update players item in slot, sets damage maybe to item
 or something like this! You can remove item, why not? Do what you want, example of usage `updatePlayerAmuletAtSlot(player, slot, item);`.
 
+To open menu you need use command `/amulets`.
+![javaw_4gxL46hk8w](https://user-images.githubusercontent.com/114426025/192331927-36e8191d-613c-4c53-b1e3-80f364baa181.png)
+
+
 You can also use this as example of using:
 
 ```java
@@ -54,3 +58,5 @@ public class AmuletsApiExample extends JavaPlugin {
 
 
 Still have questions? Add me to discord `Alexandro Bogach#6885` or add me in VK `https://vk.com/the_sanya_2077`, maybe i will help! 
+
+
