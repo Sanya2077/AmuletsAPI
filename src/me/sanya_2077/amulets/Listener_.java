@@ -67,12 +67,6 @@ public class Listener_ implements Listener {
 		return;
 	}
 
-	@SuppressWarnings("unused")
-	private void sendActionBar(final Player player, final String message) {
-		player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(message));
-		return;
-	}
-
 	private String getSlot(final int rawslot) {
 		switch (rawslot) {
 			case 1 :
