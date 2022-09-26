@@ -1,0 +1,11 @@
+api-version: 1.18
+name: Amulets
+main: me.sanya_2077.amulets.Amulets
+author: Sanya_2077
+version: 0.1
+commands:
+  amulets:
+    description: 
+    aliases: [amulets]
+    permission:
+    usage: 
