@@ -8,6 +8,7 @@ function needed for checking player item, next function is `updatePlayerAmuletAt
 or something like this! You can remove item, why not? Do what you want, example of usage `updatePlayerAmuletAtSlot(player, slot, item);`.
 
 To open menu you need use command `/amulets`.
+
 ![javaw_4gxL46hk8w](https://user-images.githubusercontent.com/114426025/192331927-36e8191d-613c-4c53-b1e3-80f364baa181.png)
 
 
