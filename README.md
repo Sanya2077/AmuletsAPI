@@ -3,9 +3,9 @@
 
 So at starting, you need to compile my API, next you need put Amulets.jar (plugin) to your plugins folder of server. After this, you need to call a API, simply
 you can do this by `new API();`, this will be like `api = new API();`, well done you initialized API, then you can call two functions what you need, that is
-`getPlayerAmuletAtSlot()` and `updatePlayerAmuletAtSlot()`, so `getPlayerAmuletAtSlot()` uses to getting ItemStack at specific slot, allowed slots is: `Head, LeftH, Chest, RightH, Pelvis, LeftL, RightL`, then do like this `getPlayerAmuletSlot(player, slot);` and you will get ItemStack or null if slot is empty, obviosly this
-function needed for checking player item, next function is `updatePlayerAmuletAtSlot()`, you can update players item in slot, sets damage maybe to item
-or something like this! You can remove item, why not? Do what you want, example of usage `updatePlayerAmuletAtSlot(player, slot, item);`.
+`api#getPlayerAmuletAtSlot()` and `api#updatePlayerAmuletAtSlot()`, so `api#getPlayerAmuletAtSlot()` uses to getting ItemStack at specific slot, allowed slots is: `Head, LeftH, Chest, RightH, Pelvis, LeftL, RightL`, then do like this `api#getPlayerAmuletSlot(player, slot);` and you will get ItemStack or null if slot is empty, obviosly this
+function needed for checking player item, next function is `api#updatePlayerAmuletAtSlot()`, you can update players item in slot, sets damage maybe to item
+or something like this! You can remove item, why not? Do what you want, example of usage `api#updatePlayerAmuletAtSlot(player, slot, item);`.
 
 To open menu you need use command `/amulets`.
 
